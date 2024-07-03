@@ -33,6 +33,21 @@
             border-radius: 20px;
             /* Esquinas circulares */
         }
+        /* Estilo para centrar y colocar el contenido en un recuadro */
+        
+        .contenedor2,
+        .cont3 {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            background-color: rgba(0, 0, 0, 0.7);
+            /* Fondo semi-transparente */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 15px;
+            color: white;
+        }
     </style>
 </head>
 
@@ -45,10 +60,10 @@
             <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
-            <div class="navbar-collapse collapse" id="navbarNav" style>
-                <ul class="navbar-nav">
+            <div class="navbar-collapse collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link" href="inicio.html" style="margin-right:30px;">Home</a>
+                        <a class="nav-link" href="index.html" style="margin-right:30px;">Home</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="Dibujos-de-amigos.html" style="margin-right:30px;">Dibujos de amigos</a>
@@ -63,10 +78,9 @@
 
     <div class="contenedor2">
         <div class="contenido">
-            <h1 style="color: aqua;">chafita page,blog de artista?</h1>
+            <h1 style="color: aqua;">chafita dibuja, blog de artista?</h1>
             <br>
-            <p style="color: rgb(255, 255, 255);">Esta página la creé para mostrar algunos de mis dibujos y los de mis amigos</p>
-            <p style="color: rgb(255, 255, 255);">Estas son mis redes sociales:</p>
+            <p>Esta página la creé para mostrar algunos de mis dibujos y los de mis amigos</p>
         </div>
     </div>
 
@@ -82,20 +96,16 @@
         </div>
     </div>
 
-    <p>\</p>
-
     <div class="container-fluid" style="background-color: black;">
-        <footer class="py-3 ">
+        <footer class="py-3">
             <ul class="nav justify-content-center border-bottom pb-3 mb-3">
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="inicio.html" style="color: white;">Home</a>
+                    <a class="nav-link px-2" href="index.html" style="color: white;">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="Dibujos-de-amigos.html" style="color: white;">Dibujos de amigos</a>
-                </li>
+                    <a class="nav-link px-2" href="Dibujos-de-amigos.html" style="color: white;">Dibujos de amigos</a></li>
                 <li class="nav-item">
-                    <a class="nav-link px-2" href="informacion.html" style="color: white;">Información</a>
-                </li>
+                    <a class="nav-link px-2" href="informacion.html" style="color: white;">Información</a></li>
             </ul>
             <p class="text-center" style="color: white;">©2024 by chafa</p>
         </footer>
